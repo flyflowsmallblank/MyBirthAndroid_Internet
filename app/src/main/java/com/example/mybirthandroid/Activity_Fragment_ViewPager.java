@@ -11,6 +11,7 @@ import java.util.ArrayList;
 public class Activity_Fragment_ViewPager extends AppCompatActivity {
     public ViewPager2 vp2;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
