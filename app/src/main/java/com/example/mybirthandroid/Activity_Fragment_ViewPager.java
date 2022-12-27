@@ -25,6 +25,7 @@ public class Activity_Fragment_ViewPager extends AppCompatActivity {
             }
         });
         fragments.add(() -> new Fragment2());
+
         Adapter_Fragment adapter_fragment = new Adapter_Fragment(this,fragments);
         vp2.setAdapter(adapter_fragment);
     }
